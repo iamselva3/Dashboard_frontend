@@ -8,6 +8,10 @@ import Topics from './pages/Topics';
 import Regions from './pages/Regions';
 import Filters from './pages/Filters';
 import { FilterProvider } from './context/FilterContext';
+import Sources from './pages/Sources';
+import Maps from './pages/Maps';
+import Settings from './pages/Settings';
+import Trends from './pages/Trends';
 
 function App() {
   return (
@@ -46,6 +50,11 @@ function App() {
               <Route path="/topics" element={<Topics />} />
               <Route path="/regions" element={<Regions />} />
               <Route path="/filters" element={<Filters />} />
+              <Route path="/sources" element={<Sources />} />
+              <Route path="/maps" element={<Maps />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/trends" element={<Trends/>} />
+
             </Routes>
           </Layout>
         </div>

@@ -133,12 +133,12 @@ const LikelihoodChart = ({ height = 400 }) => {
             </button>
           </div>
 
-          <button className="p-2 border border-gray-300 rounded-lg hover:bg-gray-100">
+          {/* <button className="p-2 border border-gray-300 rounded-lg hover:bg-gray-100">
             <FiDownload />
           </button>
           <button className="p-2 border border-gray-300 rounded-lg hover:bg-gray-100">
             <FiMaximize2 />
-          </button>
+          </button> */}
         </div>
       </div>
 

@@ -36,7 +36,7 @@ const Sidebar = () => {
           {!collapsed && (
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-blue-600 rounded-lg"></div>
-              <h1 className="text-xl font-bold">Blackcoffer</h1>
+              <h1 className="text-xl font-bold">Dashboard</h1>
             </div>
           )}
           <button

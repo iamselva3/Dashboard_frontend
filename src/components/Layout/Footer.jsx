@@ -5,46 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-2">
       <div className="container mx-auto px-6">
-        {/* <div className="flex flex-col md:flex-row justify-between items-center"> */}
-          {/* <div className="mb-4 md:mb-0">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg"></div>
-              <h2 className="text-xl font-bold">Blackcoffer Analytics</h2>
-            </div>
-            <p className="text-gray-400 mt-2 text-sm">
-              Data Visualization Dashboard for Advanced Analytics
-            </p>
-          </div> */}
-
-          {/* <div className="flex items-center space-x-6">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FiGithub size={20} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FiTwitter size={20} />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FiLinkedin size={20} />
-            </a>
-          </div> */}
-        {/* </div> */}
-
-        <div className="border-t border-gray-800 mt-2 pt-2">
+        <div className=" pt-1">
            {/* <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-blue-600 rounded-lg"></div>
               <h2 className="text-xl font-bold">Blackcoffer Analytics</h2>

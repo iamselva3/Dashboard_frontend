@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
-      <div className="px-6 py-4">
+      <div className="px-6 py-2">
         <div className="flex items-center justify-between">
           {/* Left section */}
           <div className="flex items-center space-x-4">
@@ -144,7 +144,7 @@ const Header = () => {
         </div>
 
         {/* Filter summary bar */}
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="ml-5 mt-2 flex flex-wrap gap-2">
           <span className="text-sm text-gray-600">Active filters:</span>
           <div className="flex flex-wrap gap-2">
             <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">

@@ -105,14 +105,14 @@ const PieChart = ({
       <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">
         {data.slice(0, 6).map((item, index) => (
           <div key={index} className="flex items-center">
-            <div 
+            {/* <div 
               className="w-3 h-3 rounded mr-2"
               style={{ backgroundColor: colors[index % colors.length] }}
-            ></div>
-            <span className="truncate">{item[nameKey]}</span>
-            <span className="ml-auto font-semibold">
+            ></div> */}
+            {/* <span className="truncate">{item[nameKey]}</span> */}
+            {/* <span className="ml-auto font-semibold">
               {((item[valueKey] / totalValue) * 100).toFixed(1)}%
-            </span>
+            </span> */}
           </div>
         ))}
       </div>
